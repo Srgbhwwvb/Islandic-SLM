@@ -1,0 +1,33 @@
+# Smoke-тест: проверка пайплайна на CPU/GPU, low-params Mistral.
+# Запуск: python scripts/07_train.py --config configs/smoke.yaml --max-steps 50
+
+model:
+  arch: mistral
+  n_layer: 2
+  n_embd: 128
+  n_head: 2
+  seq_len: 256
+  vocab_size: 32772
+  tie_word_embeddings: true
+  dropout: 0.0
+
+train:
+  data_dir: data/bins
+  tokenizer: tokenizer/final
+  outdir: checkpoints/smoke
+  log_dir: logs/smoke
+  batch_size: 16
+  grad_accum: 1
+  grad_clip: 1.0
+  lr: 3e-4
+  weight_decay: 0.1
+  warmup_steps: 50
+  max_steps: 200
+  eval_every: 25
+  save_every: 100
+  gen_every: 50
+  save_total_limit: 2
+  seed: 42
+  amp: bf16
+  grad_checkpointing: false
+  num_workers: 0

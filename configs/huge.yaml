@@ -1,0 +1,33 @@
+# Huge: максимальная модель в 16 ГБ, ~235M параметров (Mistral).
+# Запуск: python scripts/07_train.py --config configs/huge.yaml --batch-size 8 --grad-accum 6
+
+model:
+  arch: mistral
+  n_layer: 16
+  n_embd: 1024
+  n_head: 16
+  seq_len: 512
+  vocab_size: 32772
+  tie_word_embeddings: true
+  dropout: 0.0
+
+train:
+  data_dir: data/bins
+  tokenizer: tokenizer/final
+  outdir: checkpoints/huge
+  log_dir: logs/huge
+  batch_size: 8
+  grad_accum: 6
+  grad_clip: 1.0
+  lr: 4e-4
+  weight_decay: 0.1
+  warmup_steps: 1000
+  max_steps: 16000
+  eval_every: 1000
+  save_every: 2000
+  gen_every: 2000
+  save_total_limit: 1
+  seed: 42
+  amp: bf16
+  grad_checkpointing: true
+  num_workers: 0

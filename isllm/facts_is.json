@@ -1,0 +1,105 @@
+{
+  "facts": [
+    {
+      "fact": "Höfuðborg Íslands",
+      "answer": "Reykjavík",
+      "candidates": ["Reykjavík", "Akureyri", "Hafnarfjörður", "Kópavogur", "Selfoss", "Ísafjörður"],
+      "formulations": [
+        {"prefix": "Höfuðborg Íslands er — "},
+        {"prefix": "Hvaða borg er höfuðborg Íslands? Svarið er — "},
+        {"prefix": "Höfuðstaður Íslands heitir — "},
+        {"prefix": "Borgin sem er aðsetur ríkisstjórnar Íslands er — "}
+      ]
+    },
+    {
+      "fact": "Rithöfundur sem hlaut Nóbelsverðlaunin í bókmenntum 1955",
+      "answer": "Halldór Laxness",
+      "candidates": ["Halldór Laxness", "Snorri Sturluson", "Jón Sigurðsson", "Gunnar Gunnarsson", "Einar Már Guðmundsson", "Steinunn Sigurðardóttir"],
+      "formulations": [
+        {"prefix": "Rithöfundurinn sem hlaut Nóbelsverðlaunin í bókmenntum árið 1955 er — "},
+        {"prefix": "Nóbelsverðlaunin í bókmenntum 1955 hlaut — "},
+        {"prefix": "Íslenski rithöfundurinn sem varð Nóbelsverðlaunahafi árið 1955 er — "}
+      ]
+    },
+    {
+      "fact": "Hæsti tindur Íslands",
+      "answer": "Hvannadalshnúkur",
+      "candidates": ["Hvannadalshnúkur", "Hekla", "Snæfellsjökull", "Eyjafjallajökull", "Herðubreið", "Esja"],
+      "formulations": [
+        {"prefix": "Hæsti tindur Íslands er — "},
+        {"prefix": "Hvaða fjall er hæst á Íslandi? Svarið er — "},
+        {"prefix": "Hæsta tinda Íslands heitir — "}
+      ]
+    },
+    {
+      "fact": "Fyrsti forseti lýðveldisins",
+      "answer": "Sveinn Björnsson",
+      "candidates": ["Sveinn Björnsson", "Jón Sigurðsson", "Kristján Eldjárn", "Ólafur Ragnar Grímsson", "Vigdís Finnbogadóttir", "Guðni Th. Jóhannesson"],
+      "formulations": [
+        {"prefix": "Fyrsti forseti íslenska lýðveldisins var — "},
+        {"prefix": "Hver varð forseti Íslands árið 1944? Svarið er — "},
+        {"prefix": "Fyrsti þjóðhöfðingi nýja lýðveldisins var — "}
+      ]
+    },
+    {
+      "fact": "Staður Alþingis frá 930",
+      "answer": "Þingvellir",
+      "candidates": ["Þingvellir", "Reykjavík", "Skálholt", "Hólar", "Akureyri", "Bessastaðir"],
+      "formulations": [
+        {"prefix": "Alþingi var starfrækt frá 930 á — "},
+        {"prefix": "Hvar kom Alþingi saman fyrst? Svarið er — "},
+        {"prefix": "Heimsminjastaðurinn þar sem Alþingi var sett árið 930 heitir — "}
+      ]
+    },
+    {
+      "fact": "Leiðtogi íslensku þjóðernishreyfingarinnar",
+      "answer": "Jón Sigurðsson",
+      "candidates": ["Jón Sigurðsson", "Sveinn Björnsson", "Halldór Laxness", "Snorri Sturluson", "Ingólfur Arnarson", "Hrafna-Flóki"],
+      "formulations": [
+        {"prefix": "Leiðtogi íslensku þjóðernishreyfingarinnar á 19. öld var — "},
+        {"prefix": "Hver leiddi sjálfstæðisbaráttu Íslendinga? Svarið er — "},
+        {"prefix": "Íslenski þjóðhetjan sem barðist fyrir sjálfstæði kallast — "}
+      ]
+    },
+    {
+      "fact": "Samdi Eddu og Heimskringlu",
+      "answer": "Snorri Sturluson",
+      "candidates": ["Snorri Sturluson", "Jón Sigurðsson", "Halldór Laxness", "Ingólfur Arnarson", "Ari Þorgilsson", "Sæmundur fróði"],
+      "formulations": [
+        {"prefix": "Höfundur Eddu og Heimskringlu er — "},
+        {"prefix": "Hver samdi Eddu og Heimskringlu? Svarið er — "},
+        {"prefix": "Rithöfundurinn sem skrifaði sögur um konunga og goð heitir — "}
+      ]
+    },
+    {
+      "fact": "Stærsti jökull í Evrópu utan Grænlands",
+      "answer": "Vatnajökull",
+      "candidates": ["Vatnajökull", "Langjökull", "Hofsjökull", "Mýrdalsjökull", "Eyjafjallajökull", "Tindfjallajökull"],
+      "formulations": [
+        {"prefix": "Stærsti jökull Íslands er — "},
+        {"prefix": "Hvaða jökull er stærstur í Evrópu utan Grænlands? Svarið er — "},
+        {"prefix": "Jökullinn sem er stærsti jökull í Evrópu utan Grænlands heitir — "}
+      ]
+    },
+    {
+      "fact": "Tungumál sem talað er á Íslandi",
+      "answer": "íslenska",
+      "candidates": ["íslenska", "norska", "færeyska", "danska", "sænska", "enska"],
+      "formulations": [
+        {"prefix": "Tungumálið sem talað er á Íslandi er — "},
+        {"prefix": "Hvaða mál er talað á Íslandi? Svarið er — "},
+        {"prefix": "Germanskt mál sem talað er á Íslandi heitir — "}
+      ]
+    },
+    {
+      "fact": "Fyrsti byggjandi Reykjavíkur",
+      "answer": "Ingólfur Arnarson",
+      "candidates": ["Ingólfur Arnarson", "Hrafna-Flóki", "Naddoður", "Garðar Svavarsson", "Eiríkur rauði", "Leifur Eiríksson"],
+      "formulations": [
+        {"prefix": "Landnámsmaðurinn sem byggði Reykjavík var — "},
+        {"prefix": "Hver var fyrsti byggjandi Reykjavíkur? Svarið er — "},
+        {"prefix": "Íslenski landnámsmaðurinn sem kom til landsins á 9. öld hét — "}
+      ]
+    }
+  ]
+}

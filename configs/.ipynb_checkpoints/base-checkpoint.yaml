@@ -1,0 +1,30 @@
+model:
+  arch: mistral
+  n_layer: 12
+  n_embd: 512
+  n_head: 8
+  seq_len: 1024
+  vocab_size: 16384
+  tie_word_embeddings: true
+  dropout: 0.0
+
+train:
+  data_dir: data/bins
+  tokenizer: tokenizer/final
+  outdir: checkpoints/base
+  log_dir: logs/base
+  batch_size: 8
+  grad_accum: 4
+  grad_clip: 1.0
+  lr: 1e-4                 
+  warmup_steps: 1000    
+  weight_decay: 0.1
+  max_steps: 150000
+  eval_every: 500
+  save_every: 1000
+  gen_every: 1000
+  save_total_limit: 2
+  seed: 42
+  amp: bf16
+  grad_checkpointing: true
+  num_workers: 0

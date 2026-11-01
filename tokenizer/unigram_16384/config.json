@@ -1,0 +1,16 @@
+{
+  "alg": "unigram",
+  "vocab_size": 16384,
+  "byte_fallback": false,
+  "lower": false,
+  "special_tokens": [
+    "<unk>",
+    "<pad>",
+    "<bos>",
+    "<eos>",
+    "<mask>"
+  ],
+  "files": [
+    "_grid_sample.txt"
+  ]
+}

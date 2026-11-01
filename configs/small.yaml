@@ -1,0 +1,33 @@
+# Small: базовый эксперимент, ~15M параметров (Mistral).
+# Запуск: python scripts/07_train.py --config configs/small.yaml
+
+model:
+  arch: mistral
+  n_layer: 4
+  n_embd: 256
+  n_head: 4
+  seq_len: 512
+  vocab_size: 32772
+  tie_word_embeddings: true
+  dropout: 0.0
+
+train:
+  data_dir: data/bins
+  tokenizer: tokenizer/final
+  outdir: checkpoints/small
+  log_dir: logs/small
+  batch_size: 24
+  grad_accum: 2
+  grad_clip: 1.0
+  lr: 1e-3
+  weight_decay: 0.1
+  warmup_steps: 500
+  max_steps: 3000
+  eval_every: 250
+  save_every: 500
+  gen_every: 500
+  save_total_limit: 2
+  seed: 42
+  amp: bf16
+  grad_checkpointing: false
+  num_workers: 0

@@ -1,0 +1,82 @@
+[
+  {
+    "chars_per_token": 3.971986147956347,
+    "tokens_per_word": 1.5496965892446117,
+    "byte_fallback_rate": 0.0,
+    "rare_token_rate": 0.17949438202247192,
+    "roundtrip_accuracy": 1.0,
+    "chars_per_sec": 2441587.0420466806,
+    "vocab_size": 8192,
+    "alg": "bpe"
+  },
+  {
+    "chars_per_token": 4.462976680261667,
+    "tokens_per_word": 1.3792080548478023,
+    "byte_fallback_rate": 0.0,
+    "rare_token_rate": 0.4312964213369345,
+    "roundtrip_accuracy": 1.0,
+    "chars_per_sec": 2431936.5115678315,
+    "vocab_size": 16384,
+    "alg": "bpe"
+  },
+  {
+    "chars_per_token": 4.935902877165277,
+    "tokens_per_word": 1.2470612852799625,
+    "byte_fallback_rate": 0.0,
+    "rare_token_rate": 0.6705797363193065,
+    "roundtrip_accuracy": 1.0,
+    "chars_per_sec": 2236067.553091755,
+    "vocab_size": 32768,
+    "alg": "bpe"
+  },
+  {
+    "chars_per_token": 4.983070269839372,
+    "tokens_per_word": 1.2352571913887966,
+    "byte_fallback_rate": 0.0,
+    "rare_token_rate": 0.68541616694651,
+    "roundtrip_accuracy": 1.0,
+    "chars_per_sec": 2298240.771799954,
+    "vocab_size": 65536,
+    "alg": "bpe"
+  },
+  {
+    "chars_per_token": 3.5600808719361567,
+    "tokens_per_word": 1.7289981906133451,
+    "byte_fallback_rate": null,
+    "rare_token_rate": 0.27033676764570197,
+    "roundtrip_accuracy": 1.0,
+    "chars_per_sec": 2427174.906122638,
+    "vocab_size": 8192,
+    "alg": "unigram"
+  },
+  {
+    "chars_per_token": 3.854812724988245,
+    "tokens_per_word": 1.5968021860344892,
+    "byte_fallback_rate": null,
+    "rare_token_rate": 0.5110460725075529,
+    "roundtrip_accuracy": 1.0,
+    "chars_per_sec": 2381721.635115402,
+    "vocab_size": 16384,
+    "alg": "unigram"
+  },
+  {
+    "chars_per_token": 3.9676372580133292,
+    "tokens_per_word": 1.5513951971246753,
+    "byte_fallback_rate": null,
+    "rare_token_rate": 0.6303113974535972,
+    "roundtrip_accuracy": 1.0,
+    "chars_per_sec": 2275978.526640176,
+    "vocab_size": 32768,
+    "alg": "unigram"
+  },
+  {
+    "chars_per_token": 3.9676372580133292,
+    "tokens_per_word": 1.5513951971246753,
+    "byte_fallback_rate": null,
+    "rare_token_rate": 0.6303113974535972,
+    "roundtrip_accuracy": 1.0,
+    "chars_per_sec": 2206636.387628901,
+    "vocab_size": 65536,
+    "alg": "unigram"
+  }
+]

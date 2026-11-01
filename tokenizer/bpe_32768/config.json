@@ -1,0 +1,16 @@
+{
+  "alg": "bpe",
+  "vocab_size": 32768,
+  "byte_fallback": true,
+  "lower": false,
+  "special_tokens": [
+    "<unk>",
+    "<pad>",
+    "<bos>",
+    "<eos>",
+    "<mask>"
+  ],
+  "files": [
+    "_grid_sample.txt"
+  ]
+}
